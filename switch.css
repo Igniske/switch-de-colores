@@ -1,0 +1,70 @@
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.negro{
+    background-color: black;
+}
+
+.morado{
+    background-color: purple;
+}
+
+.naranja{
+    background-color: orange;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fondo{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.caja {
+    display: block;
+    position: relative;
+    top:40%;
+    justify-content: center;
+    align-items: center;
+        background-color: whitesmoke;
+        width: 500px;
+        height: 100px;
+        margin: 0 auto;
+        border: solid 1px #ccc;
+        padding: 20px;
+    }
+
+    button {
+        display: flex;
+        position:relative;
+        left: 40%;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: #003366;
+        color: white;
+        padding: 10px;
+        margin-top:20px;
+        border-radius: 5px;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+    }
